@@ -1,0 +1,246 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.wp-block-navthemes-blocks-services {
+  display: -ms-flexbox;
+  display: flex;
+  position: relative; }
+  .wp-block-navthemes-blocks-services.is-dim:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5); }
+  .wp-block-navthemes-blocks-services.is-dim .wp-block-column {
+    z-index: 1; }
+  .wp-block-navthemes-blocks-services.is-parallax {
+    background-attachment: fixed !important; }
+  .wp-block-navthemes-blocks-services.alignfull {
+    padding: 100px; }
+  .wp-block-navthemes-blocks-services.alignwide {
+    padding: 100px 150px; }
+  .wp-block-navthemes-blocks-services .wp-block-column {
+    position: relative;
+    -ms-flex: 1;
+        flex: 1;
+    padding: 20px 10px;
+    margin: 0 20px; }
+
+@media (min-width: 768px) {
+  .wp-block-navthemes-blocks-services .wp-block-column:first-child {
+    margin-left: 0; }
+  .wp-block-navthemes-blocks-services .wp-block-column:last-child {
+    margin-right: 0; } }
+
+@media (max-width: 768px) {
+  .wp-block-navthemes-blocks-services {
+    display: block; }
+    .wp-block-navthemes-blocks-services .wp-block-column {
+      margin: 20px; } }
+
+@media (max-width: 1024px) {
+  .wp-block-navthemes-blocks-services.alignfull, .wp-block-navthemes-blocks-services.alignwide {
+    padding: 100px 20px; } }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.wp-block-navthemes-blocks-partners-area {
+  display: -ms-flexbox;
+  display: flex;
+  position: relative; }
+  .wp-block-navthemes-blocks-partners-area.is-dim:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5); }
+  .wp-block-navthemes-blocks-partners-area.is-dim .wp-block-column {
+    z-index: 1; }
+  .wp-block-navthemes-blocks-partners-area.is-parallax {
+    background-attachment: fixed !important; }
+  .wp-block-navthemes-blocks-partners-area.alignfull {
+    padding: 100px; }
+  .wp-block-navthemes-blocks-partners-area.alignwide {
+    padding: 100px 150px; }
+  .wp-block-navthemes-blocks-partners-area .wp-block-column {
+    position: relative;
+    -ms-flex: 1;
+        flex: 1;
+    padding: 20px 25px;
+    margin: 0 20px; }
+    .wp-block-navthemes-blocks-partners-area .wp-block-column .wp-block-image {
+      margin: 0 auto;
+      width: 100px;
+      height: auto; }
+      .wp-block-navthemes-blocks-partners-area .wp-block-column .wp-block-image img {
+        border-radius: 100%;
+        -webkit-box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.3);
+                box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.3); }
+    .wp-block-navthemes-blocks-partners-area .wp-block-column h3.partners-title {
+      margin: 20px 0 0 0 !important; }
+    .wp-block-navthemes-blocks-partners-area .wp-block-column .partners-content:before {
+      content: open-quote; }
+    .wp-block-navthemes-blocks-partners-area .wp-block-column .partners-content:after {
+      content: close-quote; }
+
+@media (min-width: 768px) {
+  .wp-block-navthemes-blocks-partners-area .wp-block-column:first-child {
+    margin-left: 0; }
+  .wp-block-navthemes-blocks-partners-area .wp-block-column:last-child {
+    margin-right: 0; } }
+
+@media (max-width: 768px) {
+  .wp-block-navthemes-blocks-partners-area {
+    display: block; }
+    .wp-block-navthemes-blocks-partners-area .wp-block-column {
+      margin: 20px; } }
+
+@media (max-width: 1024px) {
+  .wp-block-navthemes-blocks-partners-area.alignfull {
+    padding: 100px 20px; }
+  .wp-block-navthemes-blocks-partners-area.alignwide {
+    padding: 100px 20px; } }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.wp-block-navthemes-blocks-partners-area {
+  display: -ms-flexbox;
+  display: flex;
+  position: relative; }
+  .wp-block-navthemes-blocks-partners-area.is-dim:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5); }
+  .wp-block-navthemes-blocks-partners-area.is-dim .wp-block-column {
+    z-index: 1; }
+  .wp-block-navthemes-blocks-partners-area.is-parallax {
+    background-attachment: fixed !important; }
+  .wp-block-navthemes-blocks-partners-area.alignfull {
+    padding: 100px; }
+  .wp-block-navthemes-blocks-partners-area.alignwide {
+    padding: 100px 150px; }
+  .wp-block-navthemes-blocks-partners-area .wp-block-column {
+    position: relative;
+    -ms-flex: 1;
+        flex: 1;
+    padding: 20px 25px;
+    margin: 0 20px; }
+    .wp-block-navthemes-blocks-partners-area .wp-block-column .wp-block-image {
+      margin: 0 auto;
+      width: 100px;
+      height: auto; }
+      .wp-block-navthemes-blocks-partners-area .wp-block-column .wp-block-image img {
+        border-radius: 100%;
+        -webkit-box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.3);
+                box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.3); }
+    .wp-block-navthemes-blocks-partners-area .wp-block-column h3.partners-title {
+      margin: 20px 0 0 0 !important; }
+    .wp-block-navthemes-blocks-partners-area .wp-block-column .partners-content:before {
+      content: open-quote; }
+    .wp-block-navthemes-blocks-partners-area .wp-block-column .partners-content:after {
+      content: close-quote; }
+
+@media (min-width: 768px) {
+  .wp-block-navthemes-blocks-partners-area .wp-block-column:first-child {
+    margin-left: 0; }
+  .wp-block-navthemes-blocks-partners-area .wp-block-column:last-child {
+    margin-right: 0; } }
+
+@media (max-width: 768px) {
+  .wp-block-navthemes-blocks-partners-area {
+    display: block; }
+    .wp-block-navthemes-blocks-partners-area .wp-block-column {
+      margin: 20px; } }
+
+@media (max-width: 1024px) {
+  .wp-block-navthemes-blocks-partners-area.alignfull {
+    padding: 100px 20px; }
+  .wp-block-navthemes-blocks-partners-area.alignwide {
+    padding: 100px 20px; } }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.wp-block-navthemes-blocks-partners-area {
+  display: -ms-flexbox;
+  display: flex;
+  position: relative; }
+  .wp-block-navthemes-blocks-partners-area.is-dim:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5); }
+  .wp-block-navthemes-blocks-partners-area.is-dim .wp-block-column {
+    z-index: 1; }
+  .wp-block-navthemes-blocks-partners-area.is-parallax {
+    background-attachment: fixed !important; }
+  .wp-block-navthemes-blocks-partners-area.alignfull {
+    padding: 100px; }
+  .wp-block-navthemes-blocks-partners-area.alignwide {
+    padding: 100px 150px; }
+  .wp-block-navthemes-blocks-partners-area .wp-block-column {
+    position: relative;
+    -ms-flex: 1;
+        flex: 1;
+    padding: 20px 25px;
+    margin: 0 20px; }
+    .wp-block-navthemes-blocks-partners-area .wp-block-column .wp-block-image {
+      margin: 0 auto;
+      width: 100px;
+      height: auto; }
+      .wp-block-navthemes-blocks-partners-area .wp-block-column .wp-block-image img {
+        border-radius: 100%;
+        -webkit-box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.3);
+                box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.3); }
+    .wp-block-navthemes-blocks-partners-area .wp-block-column h3.partners-title {
+      margin: 20px 0 0 0 !important; }
+    .wp-block-navthemes-blocks-partners-area .wp-block-column .partners-content:before {
+      content: open-quote; }
+    .wp-block-navthemes-blocks-partners-area .wp-block-column .partners-content:after {
+      content: close-quote; }
+
+@media (min-width: 768px) {
+  .wp-block-navthemes-blocks-partners-area .wp-block-column:first-child {
+    margin-left: 0; }
+  .wp-block-navthemes-blocks-partners-area .wp-block-column:last-child {
+    margin-right: 0; } }
+
+@media (max-width: 768px) {
+  .wp-block-navthemes-blocks-partners-area {
+    display: block; }
+    .wp-block-navthemes-blocks-partners-area .wp-block-column {
+      margin: 20px; } }
+
+@media (max-width: 1024px) {
+  .wp-block-navthemes-blocks-partners-area.alignfull {
+    padding: 100px 20px; }
+  .wp-block-navthemes-blocks-partners-area.alignwide {
+    padding: 100px 20px; } }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/

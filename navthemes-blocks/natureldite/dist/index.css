@@ -1,0 +1,501 @@
+/*
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,400i,500,600,700");
+
+
+body {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+input,
+select,
+button {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+
+.fa, .far, .fas {
+    font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands" !important;
+    font-weight: 300 !important;
+}
+
+
+/*HEader Start*/
+.wp-block-navthemes-blocks-naturalheadercontent{
+	padding: 70px 100px;
+	background-size: cover !important;
+	background-repeat: no-repeat !important;
+	color: #fff;
+	position: relative;
+}
+.wp-block-navthemes-blocks-naturalheadercontent:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background:#000000db; 
+}
+
+.wp-block-navthemes-blocks-naturalheadercontent .naturalheader-contentcolumn{
+	position: relative;
+}
+.wp-block-navthemes-blocks-naturalheadercontent .naturalheader-mainbannerimage{
+	position: relative;
+}
+.wp-block-navthemes-blocks-naturalheadercontent .naturalheader-columnblock{
+	font-weight: 400;
+    padding: 30px 0;
+    line-height: 55px;
+}
+.wp-block-navthemes-blocks-naturalheadercontent .naturalheader-paragraph1{
+	font-weight: 400;
+	line-height: 38px;
+}
+
+.wp-block-navthemes-blocks-naturalheadercontent .naturalheader-contentcolumn ul {
+	list-style: none;
+	padding: 0;
+	line-height: 43px;
+}
+.wp-block-navthemes-blocks-naturalheadercontent .naturalheader-contentcolumn ul li{
+	position: relative;
+}
+.wp-block-navthemes-blocks-naturalheadercontent .naturalheader-contentcolumn ul li:before{
+	content: "\f05d";
+	font-family: FontAwesome;
+	margin-right: 8px;
+	font-size:22px;
+	 -webkit-text-stroke: 2px #000000db;
+	 color: #38cea9;
+}
+/*Header end*/
+/*About Start*/
+
+.wp-block-navthemes-blocks-naturalabout{
+	padding: 70px 100px 0 100px;
+}
+.wp-block-navthemes-blocks-naturalabout .naturalditeabout-heading1{
+	font-weight: 400; 
+	line-height: 45px;
+}
+.wp-block-navthemes-blocks-naturalabout .naturalditeabout-heading2{
+	font-weight: 400;
+    line-height: 35px;
+    padding-bottom: 18px;
+}
+.wp-block-navthemes-blocks-naturalabout .naturalditeabout-paragraph{
+	line-height: 35px;
+}
+
+.wp-block-navthemes-blocks-naturalabout .naturalditeabout-maincolumn .wp-block-column{
+	margin: 0;
+}
+.wp-block-navthemes-blocks-naturalabout .naturalditeabout-maincolumn .wp-block-column figure{
+	margin: 0;
+}
+/*About End*/
+
+/*Natural process*/
+.wp-block-navthemes-blocks-naturalprocess{
+	padding: 70px 100px;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+	color: #fff;
+	position: relative;
+}
+.wp-block-navthemes-blocks-naturalprocess:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background:#000000c4;  
+}
+.wp-block-navthemes-blocks-naturalprocess .naturaldietprocess-maincolumn{
+	margin-top: 70px;
+	position: relative;
+}
+.wp-block-navthemes-blocks-naturalprocess .naturaldietprocess-heading{
+	line-height: 60px;
+	font-weight: 400; 
+	position: relative;
+}
+
+.wp-block-navthemes-blocks-naturalprocess .naturaldietprocess-maincolumn .wp-block-image{
+	width: 80px;
+	height: 80px;
+	border-radius: 100%;
+	background: #38cea9;
+	margin: 0 auto;
+	padding-top: 18px;
+}
+.wp-block-navthemes-blocks-naturalprocess .naturaldietprocess-maincolumn .wp-block-column{
+	position: relative;
+	padding: 30px 0;
+	border: 2px solid transparent;
+}
+.wp-block-navthemes-blocks-naturalprocess .naturaldietprocess-maincolumn .wp-block-column:hover{
+	border: 2px solid #38cea9;
+	color: #38cea9;
+}
+/*Process End*/
+/*Benefits  Start*/
+.wp-block-navthemes-blocks-naturalbenefits{
+	padding: 70px 100px;
+}
+
+.wp-block-navthemes-blocks-naturalbenefits .naturalbenefit-mainheading{
+	font-weight: 400;
+	padding: 0px 0 70px 0;
+}
+
+.wp-block-navthemes-blocks-naturalbenefits .naturalbenefit-maincolumn1 .wp-block-column{
+	margin: 0;
+}
+.wp-block-navthemes-blocks-naturalbenefits .naturalbenefit-maincolumn1 .naturalbenefit-blockcolumn1:nth-child(1){
+	flex-basis: 20%;
+}
+.wp-block-navthemes-blocks-naturalbenefits .naturalbenefit-maincolumn1 .naturalbenefit-blockcolumn1:nth-child(2){
+	flex-basis: 80%;
+	    padding-top: 50px;
+}
+.wp-block-navthemes-blocks-naturalbenefits .naturalditebenefit-maincolumn .wp-block-image{
+	width: 90px;
+	height: 90px;
+	border-radius: 100%;
+	background: #38cea9;
+	padding-top: 18px;
+	margin: 0 auto;
+	margin-top: 30px;
+
+}
+
+/*Beneft End*/
+
+/*wp-block-navthemes-blocks-naturalfeature alignfull wp-block-navthemes-blocks-naturalfeatureblocks naturalfeature_blocks is-dim*/
+
+.wp-block-navthemes-blocks-naturalfeature{
+	padding: 70px 100px 0 100px;
+	color: #fff;
+	position: relative;
+	background-size: cover !important;
+	background-repeat: no-repeat !important;
+}
+.wp-block-navthemes-blocks-naturalfeature:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background:#000000cc;
+}
+.wp-block-navthemes-blocks-naturalfeature .naturalfeature-contentcolumn{
+	position: relative;
+}
+.wp-block-navthemes-blocks-naturalfeature .naturalfeature-contentcolumn .wp-block-column{
+	margin: 0;
+}
+.wp-block-navthemes-blocks-naturalfeature .naturalfeature-contentcolumn .wp-block-column figure{
+	margin: 0;
+}
+.wp-block-navthemes-blocks-naturalfeature ul{
+	list-style: none;
+	padding: 0;
+	margin-top: 40px;
+}
+.wp-block-navthemes-blocks-naturalfeature ul li{
+	position: relative;
+	line-height: 39px;
+}
+.wp-block-navthemes-blocks-naturalfeature ul li:before{
+	content: "\f05d";
+	font-family: FontAwesome;
+	margin-right: 8px;
+	font-size: 22px;
+	-webkit-text-stroke: 2px #281b09;
+}
+
+/*Fature*/
+
+.wp-block-navthemes-blocks-naturalpricings{
+	padding: 70px 100px;
+}
+.wp-block-navthemes-blocks-naturalpricings .naturalpricing-mainheading{
+	padding: 20px 0;
+	font-weight: 400;
+}
+.wp-block-navthemes-blocks-naturalpricings .naturalpricing-maincolumn{
+	margin-top: 70px;
+}
+.wp-block-navthemes-blocks-naturalpricings .naturalpricing-maincolumn .naturalditepricingcolumns{
+	margin: 0;
+	position: relative;
+	max-height: 350px;
+	padding: 30px 20px;
+	border: 2px solid #fff;
+}
+.wp-block-navthemes-blocks-naturalpricings .naturalpricing-maincolumn .naturalditepricingcolumns:hover{
+	border: 2px solid #38cea9;
+	color: #38cea9;
+}
+.wp-block-navthemes-blocks-naturalpricings .naturalpricing-maincolumn .naturalditepricingcolumns-heading{
+	margin-top: 30px;
+}
+.wp-block-navthemes-blocks-naturalpricings .naturalpricing-maincolumn .wp-block-image img{
+	height: 200px;
+}
+
+/*Feature End*/
+
+/*Gallery Start*/
+.wp-block-navthemes-blocks-naturalgallery{
+	padding: 70px 100px;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+	position: relative;
+	color: #fff;
+}
+.wp-block-navthemes-blocks-naturalgallery:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background:#000000cc;
+}
+.wp-block-navthemes-blocks-naturalgallery .naturalgallery-heading{
+	position: relative;
+	padding: 0px 0px 50px 0;
+}
+.wp-block-navthemes-blocks-naturalgallery .naturalditegallerycontainer{
+	position: relative;
+	background:#00000000 !important;
+}
+
+
+.wp-block-navthemes-blocks-naturalgallery .naturalditegallerycontainer .blocks-gallery-item figure{
+  max-height: 260px;
+}
+
+
+/*Gallery End*/
+
+/*wp-block-navthemes-blocks-naturaltestimonials-area alignfull naturaltestimonials_carosel is-dim*/
+
+.wp-block-navthemes-blocks-naturaltestimonials-area{
+	padding: 70px 100px;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+	position: relative;
+	color: #555;
+}
+.wp-block-navthemes-blocks-naturaltestimonials-area:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background:#ffffffc4;
+}
+.wp-block-navthemes-blocks-naturaltestimonials-area .naturaltestimonials-heading{
+	position: relative;
+	padding: 0 0 50px 0;
+}
+.wp-block-navthemes-blocks-naturaltestimonials-area .naturaltestimonials-maincolumns{
+	position: relative;
+}
+.wp-block-navthemes-blocks-naturaltestimonials-area .naturaltestimonials-maincolumns .wp-block-column{
+	background: transparent !important;
+}
+.wp-block-navthemes-blocks-naturaltestimonials-area .naturaltestimonials-maincolumns .wp-block-image img{
+	border-radius: 100%;
+	width: 90px;
+	height: 90px;
+}
+.wp-block-navthemes-blocks-naturaltestimonials-area .naturaltestimonials-maincolumns .naturaltestimonials-paragraph{
+	font-weight: 500;
+	line-height: 35px;
+}
+
+.wp-block-navthemes-blocks-naturaltestimonials-area .naturaltestimonials-maincolumns  .naturaltestimonials-headingfirst{
+	color: #38cea9;
+	font-weight: 600;
+	padding: 10px 0;
+}
+
+/*natural testimonial end*/
+/*callaction*/
+.wp-block-navthemes-blocks-naturalcallaction{
+	padding: 70px 100px;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+	position: relative;
+	color: #fff;
+}
+.wp-block-navthemes-blocks-naturalcallaction:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background:linear-gradient(to right, #000000a6 , black);
+}
+.wp-block-navthemes-blocks-naturalcallaction .naturalcallaction-maincolumn{
+	position: relative;
+}
+.wp-block-navthemes-blocks-naturalcallaction .naturalcallaction-maincolumn .naturalcallaction-headingblocks{
+	line-height: 46px;
+    padding: 27px 0;
+}
+.wp-block-navthemes-blocks-naturalcallaction .naturalcallaction-maincolumn .naturalcallaction-paragraphblocks{
+	line-height: 31px;
+}
+
+/*Footer start*/
+
+.wp-block-navthemes-blocks-naturalfooterarea{
+	line-height: 40px;
+    padding: 70px 100px;
+}
+	.wp-block-navthemes-blocks-naturalheadercontent .naturalheader-columnblocksecond .wp-block-navthemes-blocks-container{
+		padding: 30px 20px;
+		border-radius: 5px;
+	}
+
+
+
+/*Media CSS*/
+
+@media(max-width:768px){
+
+  .wp-block-navthemes-blocks-naturalheadercontent{
+    padding: 20px 30px;
+  }
+	.wp-block-navthemes-blocks-naturalheadercontent .naturalheader-contentcolumn{
+		display: inline;
+	}
+
+  .wp-block-navthemes-blocks-naturalabout{
+    padding: 20px 30px;
+  }
+
+.wp-block-navthemes-blocks-naturalabout .wp-block-column{
+	margin: 0;
+}
+.wp-block-navthemes-blocks-naturalprocess{
+	padding: 20px 30px;
+}
+.wp-block-navthemes-blocks-naturalprocess .naturaldietprocess-maincolumn .naturaldietprocess-blockcolumn{
+	margin: 0 auto;
+}
+.wp-block-navthemes-blocks-naturalbenefits{
+	padding: 20px 30px;
+}
+.wp-block-navthemes-blocks-naturalfeature{
+	padding: 20px 30px;
+}
+
+.wp-block-navthemes-blocks-naturalpricings{
+	padding: 20px 30px;
+}
+
+.wp-block-navthemes-blocks-naturalpricings .naturalpricing-maincolumn .wp-block-column{
+	margin: 0 auto;
+}
+.wp-block-navthemes-blocks-naturalgallery{
+	padding: 20px 30px;
+}
+.wp-block-navthemes-blocks-naturaltestimonials-area{
+	padding: 20px 30px;
+}
+
+.wp-block-navthemes-blocks-naturaltestimonials-area .naturaltestimonials-blockscolumn{
+	margin: 0;
+}
+.wp-block-navthemes-blocks-naturalcallaction{
+	padding: 20px 30px;
+}
+.wp-block-navthemes-blocks-naturalfooterarea{
+	padding: 20px 30px;
+}
+}
+
+
+/* Appientment Area */
+.mainclassformcol{
+  padding: 30px 30px;
+} 
+
+
+.mainclassformcol .navthemes-control{
+  border:none;
+  border-radius: 5px; 
+  margin: 15px 0px;
+  padding-left: 20px;  
+  background: #fff;
+  width: 100%;
+}
+.mainclassformcol .form-controlnav{
+  border:none;
+  border-radius: 5px; 
+  margin: 15px 0px;
+  padding-left: 20px;
+  background: #fff;
+    width: 100%;
+}
+
+.mainclassformcol .nav-formtextarea{
+  border:none;
+  border-radius: 5px; 
+  margin: 15px 0px;
+  padding-left: 20px;
+  background: #fff;
+    width: 100%;
+    max-height: 150px;
+}
+
+.mainclassformcol .navthemes-control:focus,.mainclassformcol .form-controlnav:focus{
+    background-color: #fff;
+    border-color: #fff;
+    border-bottom: 1px solid #ccc;
+    box-shadow: none;
+}
+
+.mainclassformcol .btn-controlnav{
+      background: #38cea9;
+    border-radius: 5px;
+    width: 100%;
+    padding: 20px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 16px;
+    cursor: pointer;
+}
+.mainclassformcol .btn-controlnav:hover{
+	background:#bad291;
+}
+.wpcf7-response-output{
+  position: relative;
+  bottom: 20px;
+}

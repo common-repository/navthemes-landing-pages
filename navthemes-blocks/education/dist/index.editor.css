@@ -1,0 +1,460 @@
+/*
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+
+
+/*  HEader Content start  */
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,400i,500,600,700");
+
+
+body {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+button,
+a,
+div,
+ul,
+li {
+    font-family: 'Montserrat', sans-serif !important;
+}
+p{
+    font-size: 15px !important;
+}
+
+.fa, .far, .fas {
+    font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands" !important;
+    font-weight: 300 !important;
+}
+
+/*Start css basic button */
+
+.wp-block-button .wp-block-button__link {
+    padding: 12px 60px !important;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+    display: inline-block !important;
+    text-decoration: none !important;
+    position: relative;
+}
+
+.wp-block-button .wp-block-button__link:hover {
+    color: #fff !important;
+    background: #1189ad !important;
+}
+
+
+/*End css basic button */
+
+
+/*Start wordpress-gutenberg Upcoming wp-block-navthemes-blocks-heading-section  in css date=01-04-2019*/
+/*HEader Start*/
+
+.wp-block-navthemes-blocks-educationheader{
+    padding: 70px 100px;
+    color: #fff;
+    position: relative;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+.wp-block-navthemes-blocks-educationheader:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background:#000000b8;
+}
+.wp-block-navthemes-blocks-educationheader .educationheader-maincolumn{
+    position: relative;
+}
+
+.wp-block-navthemes-blocks-educationheader .educationbaner-heading{
+    font-weight: 400;
+    line-height: 50px;
+    padding: 0 0 37px 0;
+}
+
+.wp-block-navthemes-blocks-educationheader .educationheader-maincolumn ul{
+    list-style: none !important;
+    padding: 0 !important;
+    line-height: 40px;
+    margin-bottom: 50px;
+}
+.wp-block-navthemes-blocks-educationheader .educationheader-maincolumn ul li{
+    position: relative;
+}
+.wp-block-navthemes-blocks-educationheader .educationheader-maincolumn ul li:before{
+    content: "\f05d";
+    font-family: FontAwesome;
+    font-weight: 300;
+    margin-right: 8px;
+    font-size: 22px;
+   -webkit-text-stroke: 1px #000000;
+   color: #ff6d6e;
+}
+
+.wp-block-navthemes-blocks-educationheader .educationheader-maincolumn .educationheadercontainer-blocks{
+    padding: 20px 30px;
+    border-radius: 5px;
+    opacity: 0.7;
+}
+
+/*Header End*/
+
+/*Services Start*/
+.wp-block-navthemes-blocks-educationservices{
+    padding: 70px 100px;
+}
+.wp-block-navthemes-blocks-educationservices .educationservices-blockcolumn1:nth-child(odd){
+    margin: 0;
+}
+.wp-block-navthemes-blocks-educationservices .educationservices-blockcolumn2:nth-child(odd){
+    margin: 0;
+}
+.wp-block-navthemes-blocks-educationservices .educationservices-maincolumn1 .educationservice-columns{
+    margin: 0;
+    border: 1px solid #ccc;
+    padding: 20px 15px;
+    border-radius: 5px;
+    position: relative;
+    transition: 0.2s;
+}
+.wp-block-navthemes-blocks-educationservices .educationservices-maincolumn1 .educationservice-columns:hover{
+    background:#002986 !important;
+    color: #fff
+}
+.wp-block-navthemes-blocks-educationservices .educationservices-maincolumn2 .educationservice-columns:hover{
+    background:#002986 !important;
+    color: #fff
+}
+
+.wp-block-navthemes-blocks-educationservices .educationservices-maincolumn2 .educationservice-columns{
+    margin: 0;
+    border: 1px solid #ccc;
+    padding: 20px 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.wp-block-navthemes-blocks-educationservices .educationservice-paragraph{
+    font-size: 15px;
+}
+/*Services End*/
+/*Courses Start*/
+.wp-block-navthemes-blocks-educationcourses-area{
+    padding: 70px 100px;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    position: relative;
+    color: #fff;
+}
+.wp-block-navthemes-blocks-educationcourses-area:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background:#000000ef;
+}
+.wp-block-navthemes-blocks-educationcourses-area .educationmaincourses-mainheading{
+    position: relative;
+    font-weight: 400;
+    padding-bottom: 60px;
+}
+.wp-block-navthemes-blocks-educationcourses-area .educationcourseblock-maincolumn{
+    position: relative;
+}
+
+.wp-block-navthemes-blocks-educationcourses-area .educationcourseblock-maincolumn .wp-block-column{
+    background:#00000000 !important;
+    margin: 10px; 
+}
+.wp-block-navthemes-blocks-educationcourses-area .educationcourseblock-maincolumnarea {
+    display: -webkit-box;
+}
+.wp-block-navthemes-blocks-educationcourses-area .educationcourseblock-maincolumnarea .wp-block-column{
+    margin: 0;
+    margin-right: 20px;    
+    margin-top: 50px;
+}
+.wp-block-navthemes-blocks-educationcourses-area .educationcourseblock-maincolumnarea .courseblock-heading{
+    font-weight: 400;
+}
+.wp-block-navthemes-blocks-educationcourses-area .educationcourses-paragraphfirst{
+    font-size: 15px;
+}
+
+.wp-block-navthemes-blocks-educationcourses-area .educationyoutube-block iframe{
+   width: 100%;
+   height: 100%;
+  margin-top: 0px;
+}
+/*courses area end*/
+
+/*Pricing*/
+.wp-block-navthemes-blocks-educationpricing-area{
+    padding: 70px 100px;
+}
+
+.wp-block-navthemes-blocks-educationpricing-area .educationpricingblock-heading{
+    font-weight: 400;
+}
+.wp-block-navthemes-blocks-educationpricing-area .educationpricingblock-paragraph{
+    padding-bottom: 50px;
+}
+
+.wp-block-navthemes-blocks-educationpricing-area .educationpricing-maincolumnareas .educationpricing-columns{
+    margin: 0;
+    border-radius: 5px;
+    border:1px solid #ccc;
+}
+.wp-block-navthemes-blocks-educationpricing-area .educationpricing-maincolumnareas .educationpricing-paragraphfirst{
+    margin: 0;
+}
+.wp-block-navthemes-blocks-educationpricing-area .educationpricing-maincolumnareas .educationpricing-heading{
+    font-weight: 400;
+}
+.wp-block-navthemes-blocks-educationpricing-area .educationpricing-maincolumnareas .educationpricing-headingcontainer{
+    border-radius: 5px 5px 0px 0px;
+    padding: 10px 0;
+    color: #fff;
+}
+
+.wp-block-navthemes-blocks-educationpricing-area .educationpricing-maincolumnareas .wp-block-image figure{
+    position: relative;
+    z-index: 1;
+}
+.wp-block-navthemes-blocks-educationpricing-area .educationpricing-maincolumnareas .wp-block-image figure:before{
+    content:"";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background:#0000009e;    
+}
+
+.wp-block-navthemes-blocks-educationpricing-area .educationpricing-maincolumnareas .educationpricing-heading2{
+    font-weight: 400;
+    line-height: 40px;
+}
+.wp-block-navthemes-blocks-educationpricing-area .educationpricing-maincolumnareas .educationpricing-paragraphsecond{
+    line-height: 50px;
+}
+
+/*Faq Start*/
+
+.wp-block-navthemes-blocks-educationfaq{
+    padding: 70px 100px 0 100px;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    position: relative;
+}
+
+.wp-block-navthemes-blocks-educationfaq:before{
+    content:"";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background:#000000e8;    
+}
+.wp-block-navthemes-blocks-educationfaq .educationfaq-mainheader{
+    position: relative;
+    color: #fff;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+
+.wp-block-navthemes-blocks-educationfaq .educationfaq-maincolumn{
+    position: relative;
+}
+.wp-block-navthemes-blocks-educationfaq .educationfaq-maincolumn .educationfaq-firstcontainerarea{
+    background:#00000000 !important; 
+}
+.wp-block-navthemes-blocks-educationfaq .educationfaq-maincolumn .wp-block-column{
+    margin: 0;
+}
+.wp-block-navthemes-blocks-educationfaq .educationfaq-maincolumn .educationfaq-questioncontainer {
+    padding: 7px 15px;
+    color: #fff;
+    margin: 20px 0;
+}
+.wp-block-navthemes-blocks-educationfaq .educationfaq-maincolumn .educationfaq-answer{
+    padding: 5px 15px;
+}
+.wp-block-navthemes-blocks-educationfaq .educationfaq-maincolumn .wp-block-image figure{
+    margin-bottom: 0;
+}
+
+
+/*
+  FAQ css
+*/
+
+
+.educationfaq-firstcontainerarea {
+  margin: 90px 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+
+
+.educationfaq-questioncontainer {
+    border: none;
+    cursor: pointer;
+    display: block;
+    outline: none;
+    padding: 8px 19px;
+    position: relative;
+    width: 100%;
+    margin-top: 35px;
+    color: #fff;
+}
+
+.educationfaq-questioncontainer:before {
+  background: #fff;
+  content: '';
+  height: 2px;
+  margin-right: 37px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  width: 14px;
+}
+
+.educationfaq-questioncontainer:after {
+  background: #fff;
+  content: '';
+  height: 2px;
+  margin-right: 37px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 14px;
+}
+
+.educationfaq-questioncontainer.active:before {
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.educationfaq-questioncontainer.active h2, .educationfaq-questioncontainer:focus h2 {
+  position: relative;
+}
+
+.wp-block-navthemes-blocks-container:nth-child(2) {
+  background: #F2F2F2;
+  display: none;
+  overflow: hidden;
+}
+
+/* FAQ End*/
+
+
+
+/*FAQ End*/
+
+/*Testimonial Start*/
+.wp-block-navthemes-blocks-educationtestimonials-area{
+    padding: 70px 100px;
+}
+
+.wp-block-navthemes-blocks-educationtestimonials-area .educationtestimonial-mainheading{
+    font-weight: 400;
+}
+.wp-block-navthemes-blocks-educationtestimonials-area .educationtestimonial-mainparagraph{
+    padding-bottom: 50px; 
+}
+.wp-block-navthemes-blocks-educationtestimonials-area .educationtestimonial-maincolumn .wp-block-column:nth-child(odd){
+    margin: 0;
+}
+.wp-block-navthemes-blocks-educationtestimonials-area .educationtestimonial-maincolumn .wp-block-column:hover .educationtestimonials-firstcontainer{
+    background:#0b1982 !important;
+    color: #fff;
+}   
+.wp-block-navthemes-blocks-educationtestimonials-area .educationtestimonial-maincolumn .educationtestimonials-firstcontainer{
+    padding: 40px 20px;
+    margin-bottom: 30px;
+    line-height: 31px;
+}
+.wp-block-navthemes-blocks-educationtestimonials-area .educationtestimonial-maincolumn .educationtestimonials-mainfirstcolumn{
+    display: -webkit-box;
+}
+.wp-block-navthemes-blocks-educationtestimonials-area .educationtestimonial-maincolumn .wp-block-image img{
+    border-radius: 100%;
+    width: 90px !important;
+    height: 90px !important;
+}
+
+/*Testimonial End*/
+/*Call Action Start*/
+
+.wp-block-navthemes-blocks-educationcallaction{
+    padding: 70px 100px;
+    color: #fff;
+    position: relative;
+     background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+
+.wp-block-navthemes-blocks-educationcallaction:before{
+    content:"";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background:#000000b5;    
+}
+.wp-block-navthemes-blocks-educationcallaction .educationcallaction-image{
+    position: relative;
+}
+.wp-block-navthemes-blocks-educationcallaction .educationcallaction-heading{
+    position: relative;
+    font-weight: 400;
+    line-height: 40px;
+    padding: 30px 0;
+}
+.wp-block-navthemes-blocks-educationcallaction .educationcallaction-paragraph{
+    position: relative;
+    padding: 20px 0;
+}
+/*Call Action*/
+/*Footer Area*/
+.wp-block-navthemes-blocks-educationfooterarea{
+    padding: 70px 100px;
+    color: #fff;
+}
+/*Footer End*/
+

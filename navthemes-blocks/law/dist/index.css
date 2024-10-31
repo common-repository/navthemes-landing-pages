@@ -1,0 +1,411 @@
+*
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,400i,500,600,700");
+
+
+body {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+button,
+a {
+    font-family: 'Montserrat', sans-serif !important;
+}
+p{
+    font-size: 15px !important;
+}
+
+.fa, .far, .fas {
+    font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands" !important;
+    font-weight: 300 !important;
+}
+
+/*Start css basic button */
+
+.wp-block-button .wp-block-button__link {
+    padding: 12px 60px !important;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+    display: inline-block !important;
+    text-decoration: none !important;
+    position: relative;
+}
+
+.wp-block-button .wp-block-button__link:hover {
+    color: #fff !important;
+    background: #261559 !important;
+}
+
+
+/*End css basic button */
+
+/*HEader Start*/
+
+.wp-block-navthemes-blocks-lawheadercontent{
+	padding: 70px 100px;
+	background-size: cover !important;
+	background-repeat: no-repeat !important;
+	position: relative;
+	color: #fff;
+}
+
+.wp-block-navthemes-blocks-lawheadercontent:before{
+	content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background:#02122fd4;
+}
+
+ .wp-block-navthemes-blocks-lawheadercontent .lawheaderbaner-maincolumn{
+ 	position: relative;
+ }
+  .wp-block-navthemes-blocks-lawheadercontent .lawbaner-logoimage{
+  	position: relative;
+  }
+  .wp-block-navthemes-blocks-lawheadercontent .lawbaner-clocktimingparagraph{
+  	position: relative;
+  }
+.wp-block-navthemes-blocks-lawheadercontent .lawbaner-clocktimingparagraph:before{
+content: "\f017";
+    font-family: FontAwesome;
+    font-weight: 300;
+    margin-right: 8px;
+    font-size: 17px;
+    font-weight: 100;
+    -webkit-text-stroke: 1px #28354c;
+}
+  .wp-block-navthemes-blocks-lawheadercontent .lawbaner-headning{
+  	font-weight: 400;
+  	line-height: 45px;
+  	padding: 100px 0 30px 0;
+  }
+
+   .wp-block-navthemes-blocks-lawheadercontent .lawbaner-paragraph{
+   	line-height: 36px;
+   	padding-bottom:40px; 
+   }
+
+ /*HEader End*/
+ /*Appoentment Sat*/
+
+ .wp-block-navthemes-blocks-lawappointment-area{
+ 	padding: 70px 100px;
+ }
+
+  .wp-block-navthemes-blocks-lawappointment-area .lawappointment-heading{
+  	font-weight: 400;
+  	padding: 0px 0px 60px 0;
+  }
+
+ .wp-block-navthemes-blocks-lawappointment-area .lawappointmentblock-maincolumn .lawblock-corecolumn{
+ 	margin: 0;
+ }
+.wp-block-navthemes-blocks-lawappointment-area .lawappointmentblock-maincolumn .lawblock-corecolumn .has-2-columns{
+	display: -webkit-box;
+	padding-right: 20px;
+	margin-top: 30px;
+}
+
+.wp-block-navthemes-blocks-lawappointment-area .lawappointmentblock-maincolumn .lawblock-imagecolumn{
+	padding-top: 15px;
+}
+
+/*Form*/
+
+.wp-block-navthemes-blocks-lawappointment-area .lawappointmentblock-maincolumn .lawappointment-fromblockcolumn{
+	padding: 20px 30px;
+	border-radius: 5px 5px 0 0;
+	box-shadow: 0px -4px 6px #eee;
+}
+
+.wp-block-navthemes-blocks-lawappointment-area .lawappointmentblock-maincolumn .lawappointment-fromblockcolumn input{
+	width: 100%;
+	padding: 8px 100px 8px 6px;
+	border-radius: 5px;
+	border: 2px solid #ccc;
+	margin-top: 10px;
+}
+
+.wp-block-navthemes-blocks-lawappointment-area .lawappointmentblock-maincolumn .lawappointment-fromblockcolumn textarea{
+	padding: 4px 100px 4px 6px;
+	width: 100%;
+	max-height: 130px;
+	border-radius: 5px;
+	border: 2px solid #ccc;
+	margin-top: 10px;
+}
+.wp-block-navthemes-blocks-lawappointment-area .lawappointmentblock-maincolumn .lawappointment-fromblockcolumn .wpcf7-submit{
+	text-align: center;
+	padding: 18px 0;
+    width: 229px;
+	border-radius: 43px;
+	background: #fe543d;
+    color: #fff;
+    border: none;
+}
+.wp-block-navthemes-blocks-lawappointment-area .lawappointmentblock-maincolumn .lawappointment-fromblockcolumn p:last-child{
+	text-align: center;
+}
+/*Appoientment End*/
+
+.wp-block-navthemes-blocks-lawabout{
+	padding:70px 100px;
+	background-size: cover !important;
+	background-repeat: no-repeat !important;  
+	position: relative;
+	color: #fff;
+}
+.wp-block-navthemes-blocks-lawabout:before{
+content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background:#02122fd4;
+}
+.wp-block-navthemes-blocks-lawabout .lawabout-maincolumn{
+	position: relative;
+}
+.wp-block-navthemes-blocks-lawabout .lawabout-maincolumn iframe{
+	width: 100%;
+	height: 350px;
+}
+.wp-block-navthemes-blocks-lawabout .lawabout-maincolumn .lawabout-heading{
+	font-weight: 400;
+	line-height: 40px;
+	padding: 25px 0;
+}
+.wp-block-navthemes-blocks-lawabout .lawabout-maincolumn .lawabout-paragraph{
+	line-height: 30px;
+}
+/*Appoinent End*/
+
+/*wp-block-navthemes-blocks-lawpractice*/
+
+.wp-block-navthemes-blocks-lawpractice{
+	padding: 70px 100px;
+	background-size: cover !important;
+	background-repeat: no-repeat !important;  
+	position: relative;
+}
+.wp-block-navthemes-blocks-lawpractice:before{
+content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background:#f3f3f3ee;
+}
+.wp-block-navthemes-blocks-lawpractice .lawpractice-mainheading{
+	position: relative;
+	font-weight: 400;
+	padding: 0px 0px 50px 0;
+}
+.wp-block-navthemes-blocks-lawpractice .lawpractice-maincolumn{
+	position: relative;
+}
+.wp-block-navthemes-blocks-lawpractice .lawpractice-maincolumn .lawpractice-heading{
+	line-height: 40px;
+}
+.wp-block-navthemes-blocks-lawpractice .lawpractice-maincolumn .lawpractice-paragraph{
+	line-height: 35px;
+}
+/*Price End*/
+/*Call Action Start*/
+.wp-block-navthemes-blocks-lawcallaction{
+	padding: 70px 100px;
+}
+.wp-block-navthemes-blocks-lawcallaction .lawcallaction-maincolumn{
+	padding: 60px 0;
+}
+
+/*Call Action end/**/
+
+.wp-block-navthemes-blocks-lawteam-area{
+	padding: 70px 100px;
+}
+.wp-block-navthemes-blocks-lawteam-area .lawteam-mainheading{
+	line-height: 46px;
+}
+.wp-block-navthemes-blocks-lawteam-area .lawteam-mainparagraph{
+	line-height: 36px;
+	padding: 10px 0px 45px 0;	
+}
+
+.wp-block-navthemes-blocks-lawteam-area .lawteamsection-maincolumn .teamsection-column{
+	margin: 0;
+	background:transparent !important;
+}
+.wp-block-navthemes-blocks-lawteam-area .lawteamsection-maincolumn .team-heading{
+	padding: 35px 0 8px 0;
+	color: #101529;
+}
+.wp-block-navthemes-blocks-lawteam-area .lawteamsection-maincolumn .team-paragraph2{
+	line-height: 33px;
+}
+
+/*Call Action End*/
+
+/*Testimonial*/
+
+
+.wp-block-navthemes-blocks-lawtestimonials-area{
+	padding: 70px 100px;
+	background-size: cover !important;
+	background-repeat: no-repeat !important;  
+	position: relative;
+	color: #fff;
+}
+.wp-block-navthemes-blocks-lawtestimonials-area:before{
+content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background:#02122fd4;
+}
+.wp-block-navthemes-blocks-lawtestimonials-area .lawtestimonial-heading{
+	position: relative;
+}
+.wp-block-navthemes-blocks-lawtestimonials-area .lawtestimonial-paragraph{
+	position: relative;
+}
+.wp-block-navthemes-blocks-lawtestimonials-area .lawtestimonials-maincolumn{
+	position: relative;
+	margin-top: 60px;
+}
+
+.wp-block-navthemes-blocks-lawtestimonials-area .lawtestimonials-maincolumn .lawtestimonial-columns{
+	margin: 0;
+	color: #555;
+	padding: 20px;
+}
+.wp-block-navthemes-blocks-lawtestimonials-area .lawtestimonials-maincolumn .lawtestimonial-lawheading{
+	color:#101529; 
+}
+.wp-block-navthemes-blocks-lawtestimonials-area .lawtestimonials-maincolumn  .wp-block-image img{
+	border-radius: 100%;
+	width: 90px !important;
+	height: 90px;
+}
+/*Testimonial End*/
+
+.wp-block-navthemes-blocks-lawapply{
+	padding: 70px 100px;
+}
+.wp-block-navthemes-blocks-lawapply .lawapply-heading{
+	font-weight: 400;
+	line-height: 45px;
+	padding: 0 0 40px 0;
+}
+.wp-block-navthemes-blocks-lawapply .lawapply-paragraph{
+	line-height: 35px;
+	padding: 0 0 20px 0;
+}
+.wp-block-navthemes-blocks-lawapply .lawapply-paragraphicon{
+	position: relative;
+	padding-top: 30px;
+}
+.wp-block-navthemes-blocks-lawapply .lawapply-paragraphicon:before{
+content: "\f017";
+    font-family: FontAwesome;
+    font-weight: 300;
+    margin-right: 8px;
+    font-size: 20px;
+    -webkit-text-stroke: 1px #fff;
+}
+.wp-block-navthemes-blocks-lawfooterarea{
+	padding:70px 100px; 
+}
+
+
+@media(max-width:768px){
+	.wp-block-navthemes-blocks-lawheadercontent{
+		padding: 20px 30px;
+	}
+	.wp-block-navthemes-blocks-lawheadercontent .lawheaderbaner-maincolumn{
+		display: table;
+	}
+	.wp-block-navthemes-blocks-lawappointment-area{
+		padding: 20px 30px;
+	}
+	.wp-block-navthemes-blocks-lawappointment-area .lawappointmentblock-maincolumn{
+		display: table;
+	}
+	.wp-block-navthemes-blocks-lawabout{
+		padding: 20px 30px;
+	}
+	.wp-block-navthemes-blocks-lawabout .lawabout-maincolumn{
+		display: table;
+	}
+	.wp-block-navthemes-blocks-lawpractice{
+		padding: 20px 30px;
+	}
+	.wp-block-navthemes-blocks-lawpractice .lawpractice-mainblockcolumn{
+		margin: 0 auto;
+	}
+	.wp-block-navthemes-blocks-lawcallaction{
+		padding: 20px 30px;
+	}
+	.wp-block-navthemes-blocks-lawcallaction .lawcallaction-mainblockcolumn1{
+		margin: 0;
+	}
+	.wp-block-navthemes-blocks-lawteam-area{
+		padding: 20px 30px;
+	}
+	.wp-block-navthemes-blocks-lawteam-area .lawteamsection-maincolumn .lawteam-blockcolumn{
+		margin: 0 auto;
+		    flex-basis: 48%;
+		    margin-top: 13px;
+	}
+	.wp-block-navthemes-blocks-lawtestimonials-area{
+		padding: 20px 30px;
+	}
+	.wp-block-navthemes-blocks-lawtestimonials-area .lawtestimonials-blockcolumn{
+		margin: 0 auto;
+		    flex-basis: 48%;
+		    margin-top: 13px;
+	}
+	.wp-block-navthemes-blocks-lawapply{
+		padding: 20px 30px;
+	}
+}
+
+@media(max-width: 480px){
+	 .wp-block-navthemes-blocks-lawteam-area .lawteamsection-maincolumn{
+	 	display: table;
+	 }
+	 .wp-block-navthemes-blocks-lawtestimonials-area .lawtestimonials-maincolumn{
+	 	display: table;
+	 }
+	 .wp-block-navthemes-blocks-lawfooterarea{
+	 	padding: 20px 30px;
+	 }
+	 .wp-block-navthemes-blocks-lawappointment-area .lawappointmentblock-maincolumn .lawblock-corecolumn .has-2-columns{
+	 	display: block;
+	 	margin: 0 auto;
+	 	text-align: center;
+	 }
+	 .wp-block-navthemes-blocks-lawheadercontent .lawbaner-headning{
+	 	padding: 50px 0px 10px 0;
+	 }
+}

@@ -1,0 +1,933 @@
+#loadingtag {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
+
+.nt_landing_page_body {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: scroll;
+}
+
+#step4 .nt_landing_page_body {
+    height: 247px;
+    display: flex !important;
+    flex-wrap: inherit !important;
+    overflow-y: scroll !important;
+}
+
+
+#step4 {
+    margin-top: 0px !important;
+    padding: 0px;
+}
+
+#step3 {
+    height: auto;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.step-3-form {
+    float: none !important;
+}
+
+#step4 .nt_landing_page_main {
+    overflow: scroll;
+    display: flex;
+    padding: 50px 25px;
+    background: #fff;
+    border-radius: 0px;
+    margin-bottom: 0px;
+    max-height: 550px;
+    margin-top: -8px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.07);
+}
+
+#step4 .nt_landing_page_main .wrap {
+    padding: 0px;
+
+}
+
+
+
+#step1 ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+#step1 ::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+#step1 ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #b7b5b6;
+}
+
+
+
+
+
+
+
+#step2 ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+#step2 ::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+#step2 ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #b7b5b6;
+}
+
+
+
+
+
+#step3 ::-webkit-scrollbar {
+    width: 0px;
+}
+
+#step3 ::-webkit-scrollbar-track {
+    background-color: #ebebeb;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#step3 ::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+
+#step3 ::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #6d6d6d;
+}
+
+
+
+
+#step4 ::-webkit-scrollbar {
+    width: 0px;
+}
+
+#step4 ::-webkit-scrollbar-track {
+    background-color: #ebebeb;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#step4 ::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+
+#step4 ::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #6d6d6d;
+}
+
+
+
+
+.nt_landing_page_body .nt_btns_hide {
+    display: none;
+}
+
+.nt_btns_show {
+    display: block !important;
+}
+
+.nt_landing_page_templates {
+    margin: 20px;
+    position: relative;
+    box-shadow: 0px 0px 22px #9490909e;
+    background: #0000;
+    border-radius: 4px;
+}
+
+.nt_landing_page_templates img {
+    border-radius: 4px;
+    height: 100%;
+}
+
+.nt_landing_page_templates .preview_btn {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    width: 44%;
+    height: 39px;
+    border-radius: 0px;
+    background: #0085ba !important;
+    box-shadow: none !important;
+    color: #fff;
+    border: none !important;
+    text-decoration: none;
+    text-shadow: none !important;
+    transition: 0.5s;
+}
+
+
+
+
+.nt_landing_page_templates .preview_btn:hover {
+    background: #fff !important;
+    color: #555;
+}
+
+.nt_landing_page_templates .templateset_btn {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    width: 44%;
+    height: 39px !important;
+    border-radius: 0px;
+    background: #50c889 !important;
+    padding: 10px 20px;
+    box-shadow: none !important;
+    color: #fff;
+    border: none !important;
+    text-decoration: none;
+    text-shadow: none !important;
+
+}
+
+.template_btns.nt_template_name_btn {
+    height: 39px !important;
+    border-radius: 0px;
+    background: #50c889 !important;
+    padding: 10px 20px;
+    box-shadow: none !important;
+    color: #fff;
+    border: none !important;
+    width: 29%;
+    text-decoration: none;
+    text-shadow: none !important;
+}
+
+#nt_name_modal #nt_page_name {
+    height: 39px !important;
+}
+
+.template_btns.templateedit_btn {
+    height: 39px !important;
+    border-radius: 0px !important;
+    background: #50c889 !important;
+    box-shadow: none !important;
+    color: #fff;
+    border: none !important;
+    text-decoration: none;
+    text-shadow: none !important;
+    line-height: 36px !important;
+}
+
+.template_btns.preview_btn {
+    height: 39px !important;
+    border-radius: 0px !important;
+    background: #0085ba !important;
+    box-shadow: none !important;
+    color: #fff;
+    border: none !important;
+    text-decoration: none;
+    text-shadow: none !important;
+    transition: 0.5s;
+    padding-top: 5px;
+   text-align: center;
+}
+
+.nt_modal .preview_btn {
+    border-radius: 5px;
+    height: 30px;
+    width: 34%;
+    margin: 2%;
+}
+
+.nt_modal .templateedit_btn {
+    border-radius: 5px;
+    height: 30px;
+    width: 30%;
+    margin: 2%;
+}
+
+/* The Modal (background) */
+.nt_modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 16;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content */
+.nt_modal .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+@media(max-width:480px) {
+    .nt_modal .modal-content {
+        width: 100%;
+    }
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+/* The Close Button */
+.nt_modal .close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.nt_modal .close:hover,
+.nt_modal .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nt_modal .modal-header {
+    padding: 2px 16px;
+    background-color: #3ac88a;
+    color: white !important;
+}
+
+.nt_modal .modal-header h2 {
+    color: white !important;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.nt_modal .modal-body {
+    padding: 2px 16px;
+    text-align: center
+}
+
+.nt_name_modal .modal-body {
+    padding: 20px;
+}
+
+.nt_modal img {
+    width: 6%;
+    position: relative;
+    top: 10px;
+}
+
+#nt_name_modal #nt_page_name {
+    padding: 5px;
+    margin-top: 0px;
+}
+
+.nt_landing_page_dash,
+.nt_landing_page_onboarding {
+    padding: 20px;
+}
+
+.nt_landing_page_onboarding .wrap {
+    padding: 70px 0px;
+}
+
+.nt_landing_page_dash h1,
+.nt_landing_page_onboarding h1 {
+    text-align: center;
+}
+
+.nt_landing_page_dash .tab-content,
+.nt_landing_page_onboarding .tab-content {
+    text-align: center;
+}
+
+
+body.gutenberg-editor-page .editor-post-title__block,
+body.gutenberg-editor-page .editor-default-block-appender,
+body.gutenberg-editor-page .editor-block-list__block {
+    max-width: none !important;
+}
+
+
+.textareaofscriptandstyle {
+    margin-top: 60px;
+}
+
+.textareaofscriptandstyle textarea {
+    width: 100%;
+    max-height: 300px;
+    min-height: 300px;
+    border-radius: 6px 6px 6px 6px;
+    border-style: none solid solid none;
+    border-width: medium 1px 1px medium;
+    color: #555555;
+    line-height: 1.4em;
+    padding: 5px 8px;
+    transition: background-color 0.2s ease 0s;
+}
+
+.nt_landing_page_onboarding {
+    position: fixed !important;
+    background-color: #f1f1f1;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 99999;
+    overflow-x: hidden !important;
+    overflow-y: scroll !important;
+    height: 100%;
+    padding-top: 0;
+}
+
+.nt_landing_page_onboarding #ntlploader {
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    background: rgb(255, 255, 255);
+    opacity: 0.9;
+    z-index: 999;
+    height: 900px;
+}
+
+.nt_landing_page_onboarding #ntlploader img {
+    padding-top: 10%;
+}
+
+.nt_landing_page_onboarding::-webkit-scrollbar,
+.nt_landing_page_body::-webkit-scrollbar,
+.nt_landing_page_onboarding .ntlppluginnotice {
+    display: none;
+}
+
+/* Style the tab */
+.nt_landing_page_onboarding .tab {
+    overflow: hidden;
+    width: 100%;
+    margin-left: 77.5%;
+    padding-top: 45px;
+}
+
+/* Style the buttons inside the tab */
+.nt_landing_page_onboarding .tab .tablinks {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.nt_landing_page_onboarding .tab .tablinks:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.nt_landing_page_onboarding .tab .tablinks.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.nt_landing_page_onboarding .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+    margin-top: 35px;
+}
+
+.nt_landing_page_onboarding .tabcontent h3 {
+    max-width: 200px;
+    background: #21c28c;
+    padding: 20px;
+    color: #fff;
+    margin: 0 auto;
+    margin-bottom: -38px;
+    position: relative;
+    z-index: 9;
+}
+
+.nt_landing_page_onboarding .button--wayra {
+    background-color: #00c88a !important;
+    color: #fff !important;
+    border-color: #00c88a;
+    font-size: 16px;
+}
+
+.nt_landing_page_onboarding .button--wayra:hover {
+    color: #fff !important;
+    border-color: #1a52bf !important;
+    /*#00AE68-green*/
+}
+
+.nt_landing_page_onboarding .button--wayra::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150%;
+    height: 100%;
+    background: #37474f;
+    z-index: -1;
+    -webkit-transform: rotate3d(0, 0, 1, -45deg) translate3d(0, -3em, 0);
+    transform: rotate3d(0, 0, 1, -45deg) translate3d(0, -3em, 0);
+    -webkit-transform-origin: 0% 100%;
+    transform-origin: 0% 100%;
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.3s, background-color 0.3s;
+    transition: transform 0.3s, opacity 0.3s, background-color 0.3s;
+}
+
+.nt_landing_page_onboarding .button--wayra:hover::before {
+    opacity: 1;
+    background-color: #1a52bf !important;
+    /*#00AE68-green*/
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg);
+    -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+    transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+
+.nt_landing_page_onboarding .button--wayra {
+    min-width: 150px;
+    max-width: 250px;
+    margin: 0px;
+    padding: 0em 2em;
+    border: none;
+    height: 43px;
+    border-radius: 0px;
+    background: none;
+    color: inherit;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+    -webkit-backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nt_landing_page_onboarding .button--wayraskip {
+    background-color: #7d7d7d !important;
+    color: #fff !important;
+    border-color: #7d7d7d;
+    font-size: 16px;
+}
+
+.nt_landing_page_onboarding .button--wayraskip:hover {
+    color: #fff !important;
+    border-color: #1a52bf !important;
+    /*#00AE68-green*/
+}
+
+.nt_landing_page_onboarding .button--wayraskip::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150%;
+    height: 100%;
+    background: #37474f;
+    z-index: -1;
+    -webkit-transform: rotate3d(0, 0, 1, -45deg) translate3d(0, -3em, 0);
+    transform: rotate3d(0, 0, 1, -45deg) translate3d(0, -3em, 0);
+    -webkit-transform-origin: 0% 100%;
+    transform-origin: 0% 100%;
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.3s, background-color 0.3s;
+    transition: transform 0.3s, opacity 0.3s, background-color 0.3s;
+}
+
+.nt_landing_page_onboarding .button--wayraskip:hover::before {
+    opacity: 1;
+    background-color: #1a52bf !important;
+    /*#00AE68-green*/
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg);
+    -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+    transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+
+.nt_landing_page_onboarding .button--wayraskip {
+    min-width: 150px;
+    max-width: 250px;
+    margin: 0px;
+    padding: 0em 2em;
+    border: none;
+    height: 43px;
+    border-radius: 0px;
+    background: none;
+    color: inherit;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+    -webkit-backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+
+.nt_landing_page_onboarding .button--round-s {
+    /*    border-radius: 5px;*/
+}
+
+.nt_landing_page_onboarding .button--border-thin {
+    /*  border: 1px solid;*/
+}
+
+.nt_landing_page_onboarding .button--wayra {
+    overflow: hidden;
+    -webkit-transition: border-color 0.3s, color 0.3s;
+    transition: border-color 0.3s, color 0.3s;
+    -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+    transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+
+.nt_landing_page_onboarding .button--wayraskip {
+    overflow: hidden;
+    -webkit-transition: border-color 0.3s, color 0.3s;
+    transition: border-color 0.3s, color 0.3s;
+    -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+    transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+
+.nt_landing_page_onboarding .tablinks {
+    margin-left: 10px;
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 100%;
+}
+
+.nt_landing_page_onboarding .tablinks.active {
+    background-color: #21c28c !important;
+    color: #fff;
+    border: #21c28c;
+}
+
+.nt_landing_page_onboarding .tablinks {
+    background-color: #c3c3c3 !important;
+    color: #fff;
+    border: #c3c3c3;
+}
+
+.nt_landing_page_onboarding ul,
+.nt_landing_page_onboarding li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nt_landing_page_onboarding .nt_lp_steps {
+
+    padding: 50px 25px;
+    background: #fff;
+    border-radius: 0px;
+    margin-bottom: 0px;
+    max-height: 550px;
+    margin-top: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.07);
+}
+
+.nt_landing_page_onboarding .nt_lp_step {
+    width: 100%;
+    display: flex;
+    text-align: left;
+}
+
+.nt_landing_page_onboarding .nt_lp_step1 {
+    width: 100%;
+    display: flex;
+    text-align: left;
+}
+
+.nt_landing_page_onboarding .nt_lp_stepcontent {
+    width: 100%;
+
+}
+
+.nt_landing_page_onboarding .nt_lp_stepimages,
+.nt_landing_page_onboarding .nt_lp_stepcontent,
+.nt_landing_page_onboarding .nt_lp_stepinst {
+    margin: 10px;
+}
+
+.nt_landing_page_onboarding .toggle {
+    position: relative;
+    display: block;
+    width: 42px;
+    height: 24px;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    transform: translate3d(0, 0, 0);
+}
+
+.nt_landing_page_onboarding .toggle:before {
+    content: "";
+    position: relative;
+    top: 1px;
+    left: 1px;
+    width: 40px;
+    height: 22px;
+    display: block;
+    background: #c8ccd4;
+    border-radius: 12px;
+    transition: background 0.2s ease;
+}
+
+.nt_landing_page_onboarding .toggle span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    display: block;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 2px 6px rgba(154, 153, 153, 0.75);
+    transition: all 0.2s ease;
+}
+
+.nt_landing_page_onboarding .toggle span svg {
+    margin: 7px;
+    fill: none;
+}
+
+.nt_landing_page_onboarding .toggle span svg path {
+    stroke: #c8ccd4;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 24;
+    stroke-dashoffset: 0;
+    transition: all 0.5s linear;
+}
+
+.nt_landing_page_onboarding .nt_lp_stepinst {
+    width: 100%;
+    text-align: right;
+}
+
+.nt_landing_page_onboarding .nt_lp_stepinst label {
+    float: right;
+}
+
+.nt_landing_page_onboarding .recpluginbtn:checked+.toggle:before {
+    background: #21c28c;
+}
+
+.nt_landing_page_onboarding .recpluginbtn:checked+.toggle span {
+    transform: translateX(18px);
+}
+
+.nt_landing_page_onboarding .recpluginbtn:checked+.toggle span path {
+    stroke: #21c28c;
+    stroke-dasharray: 25;
+    stroke-dashoffset: 25;
+}
+
+.nt_landing_page_onboarding #step1,
+.nt_landing_page_onboarding #step2 {
+    height: auto;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.nt_landing_page_onboarding .nt_lp_step h2 {
+
+    font-size: 15px;
+    margin: 5px 0px;
+}
+
+.nt_landing_page_onboarding {
+    text-align: center;
+}
+
+.nt_landing_page_onboarding #step3 .ntlpadditional {
+    text-align: left;
+
+    width: 100%;
+    margin: 10px;
+}
+
+.nt_landing_page_onboarding #step3 .ntlpadditional label {
+    font-weight: 600;
+}
+
+.nt_landing_page_onboarding #step3 .ntlpadditionalwrapper.card-deck {
+    /*width: 100%;*/
+}
+
+
+.ntlpadditionalwrapper {
+    display: flex;
+    width: 1366px;
+}
+
+.nt_landing_page_onboarding #step3 textarea {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    height: 180px;
+    background: #d4d3d3;
+    border-color: #d4d3d3;
+    border: 0px !important;
+}
+
+.nt_landing_page_onboarding #step4 h1 {
+    display: none;
+}
+
+.nt_landing_page_onboarding #backtodashboard {
+    margin-top: 10px;
+    line-height: 40px;
+}
+
+
+
+/*new on bording*/
+.mainonbordingclass {
+
+    margin: 5px 200px;
+
+}
+
+.loadingrecommandenplugininstall {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: #000c;
+    width: 100%;
+    height: 100%;
+    z-index: 9999999999999999;
+}
+
+
+
+.mainonbordingclass .nt_lp_nextstep {
+    text-align: right !important;
+}
+
+.form {
+    position: relative;
+    top: 0;
+    left: 50px;
+}
+
+/*@media (min-width: 576px){
+.card-deck {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+}*/
+
+.nt_landing_page_onboarding .nt_lp_stepsform {
+    float: left;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 50px 25px;
+    background: #fff;
+    border-radius: 0px;
+    margin-bottom: 0px;
+    max-height: 250px;
+    max-width: 100%;
+    margin-top: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.0);
+}
+
+.nt_landing_page_onboarding #step3 .card-deck {
+    width: 100%;
+    clear: both;
+    float: left;
+}
+
+.nt_landing_page_onboarding #step3 .col-xl-6 {
+    width: 45%;
+    float: left;
+    margin: 0px 18px;
+}
+
+#step4 #backtodashboard {
+    margin-top: 0px !important;
+    float: right !important;
+}

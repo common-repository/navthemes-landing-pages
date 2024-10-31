@@ -1,0 +1,102 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.wp-block-navthemes-blocks-services {
+  display: -ms-flexbox;
+  display: flex;
+  position: relative; }
+  .wp-block-navthemes-blocks-services.is-dim:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5); }
+  .wp-block-navthemes-blocks-services.is-dim .wp-block-column {
+    z-index: 1; }
+  .wp-block-navthemes-blocks-services.is-parallax {
+    background-attachment: fixed !important; }
+  .wp-block-navthemes-blocks-services.alignfull {
+    padding: 100px; }
+  .wp-block-navthemes-blocks-services.alignwide {
+    padding: 100px 150px; }
+  .wp-block-navthemes-blocks-services .wp-block-column {
+    position: relative;
+    -ms-flex: 1;
+        flex: 1;
+    padding: 20px 10px;
+    margin: 0 20px; }
+
+@media (min-width: 768px) {
+  .wp-block-navthemes-blocks-services .wp-block-column:first-child {
+    margin-left: 0; }
+  .wp-block-navthemes-blocks-services .wp-block-column:last-child {
+    margin-right: 0; } }
+
+@media (max-width: 768px) {
+  .wp-block-navthemes-blocks-services {
+    display: block; }
+    .wp-block-navthemes-blocks-services .wp-block-column {
+      margin: 20px; } }
+
+@media (max-width: 1024px) {
+  .wp-block-navthemes-blocks-services.alignfull, .wp-block-navthemes-blocks-services.alignwide {
+    padding: 100px 20px; } }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.wp-block-navthemes-blocks-services {
+  display: -ms-flexbox;
+  display: flex;
+  position: relative; }
+  .wp-block-navthemes-blocks-services.is-dim:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5); }
+  .wp-block-navthemes-blocks-services.is-dim .wp-block-column {
+    z-index: 1; }
+  .wp-block-navthemes-blocks-services.is-parallax {
+    background-attachment: fixed !important; }
+  .wp-block-navthemes-blocks-services.alignfull {
+    padding: 100px; }
+  .wp-block-navthemes-blocks-services.alignwide {
+    padding: 100px 150px; }
+  .wp-block-navthemes-blocks-services .wp-block-column {
+    position: relative;
+    -ms-flex: 1;
+        flex: 1;
+    padding: 20px 10px;
+    margin: 0 20px; }
+
+@media (min-width: 768px) {
+  .wp-block-navthemes-blocks-services .wp-block-column:first-child {
+    margin-left: 0; }
+  .wp-block-navthemes-blocks-services .wp-block-column:last-child {
+    margin-right: 0; } }
+
+@media (max-width: 768px) {
+  .wp-block-navthemes-blocks-services {
+    display: block; }
+    .wp-block-navthemes-blocks-services .wp-block-column {
+      margin: 20px; } }
+
+@media (max-width: 1024px) {
+  .wp-block-navthemes-blocks-services.alignfull, .wp-block-navthemes-blocks-services.alignwide {
+    padding: 100px 20px; } }
